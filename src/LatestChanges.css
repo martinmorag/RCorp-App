@@ -1,0 +1,32 @@
+.changes {
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    height: 100%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+
+}
+
+.filters {
+    display: flex;
+    flex-direction: column;
+}
+.select {
+    margin: .5rem 0;
+}
+
+.button {
+    margin: 1.5rem auto;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+}
+button:active {
+    background-color: rgb(141, 138, 138);
+}
